@@ -1,0 +1,130 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Assistant', sans-serif;
+  background-color: bisque;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Handlee', cursive;
+  font-family: 'Sriracha', cursive;
+  font-weight: bold;
+  color: rgb(9, 9, 9);
+  font-size: 60px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.banner p {
+  font-weight: bold;
+  color: rgb(3, 3, 3);
+  font-size: 30px;
+  margin-top: 0%;
+}
+
+.btn-banner {
+  color: black;
+  background-color: rgb(220, 100, 21);
+  border-radius: 20px;
+  padding: 15px;
+  border: 2px solid black;
+  font-weight: bold;
+  align-self: center;
+  font-size: 26px;
+}
+
+.btn-banner:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em rgba(193, 126, 2, 0.467);
+  transform: translateY(-0.25em);
+  color: rgb(253, 253, 253);
+}
+
+.text-center {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Handlee', cursive;
+  font-family: 'Sriracha', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.cards p {
+  margin-top: 0%;
+}
+
+.card img {
+  width: 240px;
+}
+
+.card {
+  width: 250px;
+  height: 320px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 5px;
+  border: 1px solid rgb(198, 192, 192);
+  border-radius: 8px;
+  background-color: rgb(255, 236, 221);
+}
+
+.card h3 {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Handlee', cursive;
+  font-family: 'Sriracha', cursive;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.footer {
+  text-align: center;
+  padding: 64px;
+  background-color: rgb(220, 100, 21);
+}
+
+.footer a {
+  color: yellow;
+  font-size: 30px;
+}
+
+.footer p {
+  font-family: font-family: 'Assistant', sans-serif;
+  font-family: 'Handlee', cursive;
+  font-family: 'Sriracha', cursive;
+}
